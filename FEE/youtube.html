@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Guest Mode</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #000;
+    }
+
+    header {
+      display: flex;
+      align-items:center;
+      justify-content: center; 
+      padding: 10px 16px;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo {
+      height: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 24px;
+      margin-left: 10px;
+    }
+
+    .search-bar {
+      display: flex;
+      flex: 1;
+      max-width: 500px;
+      margin: 0 20px;
+    }
+
+    .search-bar input {
+      flex: 1;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-right: none;
+      border-radius: 2px 0 0 2px;
+    }
+
+    .search-bar button {
+      background: #f0f0f0;
+      border: 1px solid #ccc;
+      border-left: none;
+      padding: 8px 12px;
+      cursor: pointer;
+      border-radius: 0 2px 2px 0;
+    }
+
+    .guest-mode .material-icons {
+      font-size: 28px;
+      cursor: pointer;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    aside {
+      width: 200px;
+      background: #fff;
+      padding: 20px 0;
+      border-right: 1px solid #ddd;
+      height: calc(100vh - 60px);
+      position: sticky;
+      top: 60px;
+    }
+
+    aside nav a {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #000;
+    }
+
+    aside nav a:hover {
+      background-color: #f0f0f0;
+    }
+
+    aside nav .material-icons {
+      margin-right: 10px;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <span class="material-icons">menu</span>
+      <img src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg" alt="YouTube Logo">
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search">
+      <button><span class="material-icons">search</span></button>
+    </div>
+    <div class="guest-mode">
+      <span class="material-icons">account_circle</span>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside>
+      <nav>
+        <a href="#"><span class="material-icons">home</span>Home</a>
+        <a href="#"><span class="material-icons">whatshot</span>Trending</a>
+        <a href="#"><span class="material-icons">subscriptions</span>Subscriptions</a>
+        <a href="#"><span class="material-icons">video_library</span>Library</a>
+      </nav>
+    </aside>
+
+  </div>
+</body>
+</html>

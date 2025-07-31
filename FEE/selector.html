@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            scroll-behavior: smooth;
+        }
+        header{
+            background-color: rgb(221, 221, 24);
+            margin-top: 10px;
+            height: 5vh;
+            
+            
+        }
+        .nav-list{
+            list-style: none;
+        }
+        .sections{
+            display: inline;
+            margin: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(12, 12, 12);
+        }
+        .section1,.section2,.section3{
+            height: 100vh;
+        }
+        .section1{
+            background-color: rgb(32, 181, 231);
+        }
+        .section2{
+            background-color: rgb(166, 77, 151);
+        }
+        .section3{
+            background-color: rgb(103, 219, 103);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <a href="#s1"><li class="sections">Section 1</li></a>
+                <a href="#s2"><li class="sections">Section 2</li></a>
+               <a href="#s3"><li class="sections">Section 3</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section1" id="s1">Blue</section>
+        <section class="section2" id="s2">Purple</section>
+        <section class="section3" id="s3">Green</section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!-- //<!DOCTYPE html> -->
+<!-- <html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <iframe width="400" height="300"
+        src="https://www.youtube.com/embed/e7sAf4SbS_g?autoplay=1&mute=1&loop=1&playlist=e7sAf4SbS_g"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+    </iframe>
+
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/qwNrCn6OOy0?si=Qhspm-_1feUq3QIF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </iframe>
+    
+</body>
+</html> -->/
+
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title></title>
+    </head>
+    <body>
+    
+      <h1>Multimedia Features in HTML5</h1>
+      <p>Explore how videos, audio, maps, PDFs, and embedded content work across modern browsers.</p>
+    
+      <h2>1. Project Video</h2>
+      <video controls muted loop poster="project-thumbnail.jpg" width="640">
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        <source src="video.ogv" type="video/ogg">
+        <track src="subtitles-en.vtt" kind="subtitles" srclang="en" label="English">
+        Your browser doesn't support the video tag.
+        <a href="video.mp4">Download the video</a> instead.
+      </video>
+    
+      <h2>2. Podcast Audio</h2>
+      <audio autoplay muted loop controls preload="metadata">
+        <source src="podcast.mp3" type="audio/mpeg">
+        <source src="podcast.ogg" type="audio/ogg">
+        Your browser doesn't support the audio element.
+        <a href="podcast.mp3">Download the audio</a> instead.
+      </audio>
+    
+      <h3>Podcast Transcript</h3>
+      <div>
+        <p><strong>Host:</strong> Welcome to today’s discussion on using multimedia in websites.</p>
+        <p><strong>Guest:</strong> It’s great to be here! Let’s explore video, audio, and more.</p>
+      </div>
+    
+      <h2>3. Background Music (Desktop Only)</h2>
+      <audio id="bg-audio" autoplay loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+      </audio>
+    
+      <h2>4. YouTube Tutorial</h2>
+      <iframe 
+        width="560" height="315" 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YIpA9j1TVYo?si=6VH-ato8pjqbJGea" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </iframe>
+    
+      <h2>5. Google Map (Office Location)</h2>
+      <iframe
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.954687664431!2d76.6521993757011!3d30.747774274577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fef7a3afdde91%3A0x28be27456295e10d!2sRonit%2C%20kharar!5e0!3m2!1sen!2sin!4v1753781198128!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </iframe>
+    
+      <h2>6. Resume PDF</h2>
+      <object data="jpmorgan.pdf" type="application/pdf" width="100%" height="500">
+        <p>Your browser doesn't support PDFs.
+          <a href="jpmorgan.pdf" download>Download the resume</a>.
+        </p>
+      </object>
+    
+      <h2>7. Legacy Flash Content</h2>
+      <embed src="legacy-flash.swf" type="application/x-shockwave-flash" width="600" height="400">
+      <p>Flash is no longer supported in most modern browsers.</p>
+    
+    </body>
+    </html>
