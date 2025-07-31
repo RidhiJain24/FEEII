@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        body {
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        nav {
+            background-color: #111;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .logo img {
+            width: 120px;
+            height: auto;
+            cursor: pointer;
+        }
+        .search-container {
+            display: flex;
+            justify-content: center;
+        }
+        .search-container input[type="text"] {
+            padding: 8px 12px;
+            border-radius: 4px;
+            border: none;
+            font-size: 14px;
+            outline: none;
+            width: 350px; 
+        }
+        .nav-right {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+        .nav-right li {
+            list-style: none;
+            cursor: pointer;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        .nav-right li:hover {
+            color: green;
+        }
+        .sidebar {
+            width: 200px;
+            height: 100vh;
+            background-color: #222;
+            position: fixed;
+            top: 60px;
+            left: 0;
+            padding: 20px;
+        }
+        .sidebar ul {
+            list-style: none;
+        }
+        .sidebar ul li {
+            padding: 10px 0;
+            color: white;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        .sidebar ul li:hover {
+            color: green;
+        }
+        main {
+            margin-left: 220px;
+            padding: 80px 20px;
+        }
+        .main side new{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="vecteezy_youtube-logo-for-popular-online-media-content-creation_22721716.png" alt="YouTube Logo">
+        </div>
+
+        <div class="search-container">
+            <input type="text" placeholder="Search">
+        </div>
+
+        <ul class="nav-right">
+            <li>Create</li>
+            <li>Notifications</li>
+            <li>Profile</li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <div class="side" style="width: 250px; height: 100vh; overflow-y: scroll;" >
+            <ul class="new">
+                <br>
+                <br>
+                <br>
+                <br>
+                <li>Home</li>
+                <br>
+                <li>Shorts</li>
+                <br>
+                <li>Subscriptions</li>
+            </ul>
+            <br>
+            <hr>
+            <ul class="neww">
+                <br>
+                <li>You   ></li>
+                <br>
+                <li>⌛ History</li>
+                <br>
+                <li style="padding-left: 10px; cursor: pointer;">▶ Playlist</li>
+                <br>
+                <li>💿 Your Videos</li>
+                <br>
+                <li>🕓 Watch Later</li>
+                <br>
+                <li>👍 Liked Videos</li>
+                <br>
+                <li>🔗 Downloads</li>
+                <br>
+                <hr>
+            </ul>
+            <br>
+            <ul class="sub" style="cursor: pointer;">
+                <li> Doraemon</li>
+                <br>
+                <li> Shinchan</li>
+                <br>
+                <li> Death Note</li>
+                <br>
+                <li> Dragon Ball Z</li>
+                <br>
+                <li>Storiess</li>
+            </ul>
+        </div>
+
+ 
+    </div>  
+
+    <div style="position: in;"></div>

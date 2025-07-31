@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background-color: cornflowerblue;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between; /* Space between menu and search */
+            align-items: center;
+            background-color: darkblue;
+            padding: 20px 45px;
+        }
+        .navnav {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            color: aliceblue;
+            cursor: pointer;
+        }
+        .navnav li:hover{
+            color:greenyellow;
+            transition-delay: 1ms;
+        }
+       .search-bar input {
+            width: 200px;
+            height: 25px;
+            border-radius: 5px;
+            border: none;
+            padding: 5px 10px;
+        }
+        .content{
+            flex:1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content p {
+            font-size: 40px;
+            color: whitesmoke;
+        }
+        .news section{
+            /* display: grid; */
+            gap:10px;
+            padding: 20px 50px;
+        }
+        .card {
+            background-color: whitesmoke;
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navnav">
+            <li>Home</li>
+            <li>For You</li>
+            <li>Following</li>
+            <li>News Showcase</li>
+            <li>India</li>
+            <li>World</li>
+            <li>Local</li>
+            <li>Business</li>
+            <li>Technology</li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search anything" style="width: 200px; height: 25px; display: flex; justify-content: flex-end;">
+        </div>
+    </nav>
+    <div class="content">
+        <p>Your briefing</p>
+    </div>
+    <div class="news section">
+        <h1>Breaking news</h1>
+        <br>
+        <div class="card">
+
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates assumenda veritatis debitis molestiae nemo nulla obcaecati cumque eligendi nostrum quae dicta illo ipsam itaque, culpa, corrupti ratione architecto laborum? Nesciunt, adipisci vero neque dignissimos temporibus perferendis porro debitis, facere tenetur rerum doloremque qui maiores enim nostrum esse sapiente tempore repellendus?</p>
+        </div>
+        <br>
+        <br>
+
+        <div class="card">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt sequi at voluptatem delectus reprehenderit. Similique maxime iusto ipsum deserunt harum ratione, impedit fuga temporibus mollitia nobis provident? Inventore, ea fugit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fuga provident dicta dolor facere, ipsum voluptatum unde? Voluptas qui autem molestiae fugiat ipsa neque nemo fugit iusto! Maiores, veniam praesentium.
+            </p>
+        </div>
+        <br>
+        <br>
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nihil eveniet adipisci hic maiores veritatis consequatur fuga molestias rerum culpa, eos, labore expedita. Officiis, rem earum velit dicta magnam voluptatem exercitationem, vero aspernatur reprehenderit perspiciatis totam repudiandae aut ullam quo praesentium maxime illo itaque sint. Cumque placeat at eveniet modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quia tempore! Quos delectus consectetur quo officia, repellendus porro amet natus?</p>
+        </div>
+        <br>
+        <br>
+        <div class="card">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error inventore optio facere cupiditate, dolor vel laborum tempore eaque perspiciatis velit libero maxime distinctio cum ratione porro perferendis animi. Impedit animi soluta libero, amet velit beatae iusto, accusamus nam numquam eos obcaecati sunt corrupti aut? Veritatis architecto beatae similique sunt nostrum minima ipsum maiores! Dolorem rerum vitae distinctio? In laboriosam ipsam dolorem, sunt illo commodi, ad architecto laborum maiores, ipsum numquam!
+        </div>
+        <br>
+        <br>
+        <div class="card">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt repellendus numquam expedita fugit harum quas dolore dolorum consequatur reprehenderit ipsum. Molestias beatae totam eaque nesciunt maxime excepturi? Quas et consectetur alias, dolorum aspernatur quibusdam quisquam numquam itaque minima reiciendis voluptate! Corporis excepturi nemo temporibus. Labore atque fuga ullam ducimus deleniti eos, magnam, mollitia quos alias aspernatur minus excepturi et deserunt officiis aliquid odio tempore in nihil nesciunt ipsa quia error!
+        </div>
+    </div>
+</body>
+</html>
